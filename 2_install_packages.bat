@@ -1,6 +1,6 @@
 :: Security software
-::choco install -y avastfreeantivirus
-choco install -y avginternetsecurity
+choco install -y avastfreeantivirus
+::choco install -y avginternetsecurity
 
 :: Browsers
 choco install -y firefox
@@ -23,22 +23,22 @@ choco install -y jre8
 
 :: Development
 choco install -y gitextensions
-choco install -y kitty
+choco install -y putty
 
 :: File tools
 choco install -y owncloud-client 
-choco install -y winrar
-::choco install -y 7zip.install
-choco install -y truecrypt
+::choco install -y winrar
+choco install -y 7zip.install
+::choco install -y truecrypt
 choco install -y spacesniffer
 
 :: Images
 choco install -y irfanview
-choco install -y screenpresso
+::choco install -y screenpresso
 
 
 :: Misc tools
-choco install -y imgburn
+::choco install -y imgburn
 choco install -y scansnapmanager
 choco install -y keepassx
 choco install -y skype
