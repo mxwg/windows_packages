@@ -11,7 +11,6 @@ choco install -y flashplayerplugin
 choco install -y adobereader
 
 :: Editors
-choco install -y vim
 choco install -y notepadplusplus
 
 :: Media players
@@ -24,6 +23,9 @@ choco install -y jre8
 :: Development
 choco install -y gitextensions
 choco install -y putty
+
+:: Linux environment (cygwin)
+choco install -y babun
 
 :: File tools
 choco install -y owncloud-client 
